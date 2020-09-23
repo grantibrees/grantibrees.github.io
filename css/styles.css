@@ -85,6 +85,39 @@ h1, h2, h3, h4, h5, h6 {
   /* font-family: 'Raleway', sans-serif; */
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 5rem;
+  background-color: var(--info);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+svg{
+  overflow: hidden;
+  vertical-align: middle;
+}
+
 .mainfont {
   font-family: 'Open Sans', sans-serif;
 }
@@ -230,10 +263,6 @@ img {
   border-style: none;
 }
 
-svg {
-  overflow: hidden;
-  vertical-align: middle;
-}
 
 table {
   border-collapse: collapse;
@@ -482,6 +511,9 @@ mark,
 }
 .list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
+}
+list-inline-item list-sp{
+  margin-right: 0rem !important;
 }
 
 .initialism {
