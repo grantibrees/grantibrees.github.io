@@ -89,6 +89,30 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.rm-my{
+    margin-top: 0em !important;
+    margin-bottom: 0em !important;
+  }
+  
+  .rm-mx{
+    margin-left: 0em !important;
+    margin-right: 0em !important;
+  }
+  
+  .rm-py{
+    padding-top: 0em;
+    padding-bottom: 0em;
+  }
+  
+  .rm-px{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .hidden{
+    display: none !important;
+  }
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
