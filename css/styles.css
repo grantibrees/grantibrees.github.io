@@ -16,14 +16,14 @@
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
-  --orange: #f6d99b;
+  --orange: #f2dfb7;
   --yellow: #ffc107;
   --green: #28a745;
-  --teal: #03c0a4;
+  --teal: #219886;
   --cyan: #064b40;
   --white: #fff;
   --lightgray: #dee9f2;
-  --gray: #6c757d;
+  --gray: #8e979e;
   --gray-dark: #2a2d2f;
   --primary: #61e8cd;
   --secondary: #22bba4;
@@ -9917,6 +9917,10 @@ a.text-light:hover, a.text-light:focus {
   color: #cbd3da !important;
 }
 
+.text-mid {
+  color: var(--gr) !important;
+}
+
 .text-dark {
   color: var(--info) !important;
 }
@@ -10112,8 +10116,8 @@ p.lead {
   color: var(--primary)
 }
 .subheading2 {
-  font-family: "DM Serif Dislay", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
+  font-family: "DM Serif Dislay", serif;
+  text-transform: none;
   font-weight: 500;
   font-size: 1.5rem;
   color: var(--secondary)
