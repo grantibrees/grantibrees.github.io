@@ -22,6 +22,7 @@
   --teal: #03c0a4;
   --cyan: #064b40;
   --white: #fff;
+  --lightgray: #b8c5d0;
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #007B69;
@@ -6159,7 +6160,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #007B69 !important;
+  background-color: var(--gray-dark) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9861,7 +9862,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #007B69 !important;
+  color: var(--teal) !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9909,7 +9910,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #f8f9fa !important;
+  color: var(--lightgray) !important;
 }
 
 a.text-light:hover, a.text-light:focus {
